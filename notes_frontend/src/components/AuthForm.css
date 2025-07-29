@@ -1,0 +1,36 @@
+.auth-form-container {
+  min-height: 100vh;
+  background: var(--bg-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-form-card {
+  background: #fff;
+  max-width: 340px;
+  padding: 38px 24px 28px 24px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1.5px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form-card h2 {
+  color: var(--primary);
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-form-card .input {
+  margin-bottom: 14px;
+}
+
+.form-alt {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 1em;
+  color: var(--text-secondary);
+}
